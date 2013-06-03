@@ -45,9 +45,9 @@ GIT
       sprout-base (>= 0.0.0)
 
 GIT
-  remote: https://github.com/pivotal-sprout/sprout-osx-apps
-  ref: master
-  sha: 5f2bd7d64639b6affecd5951fd0b475387e6464f
+  remote: https://github.com/tgaff/sprout-osx-apps
+  ref: tmg/resurrect_menumeters_settings
+  sha: 109f5d5de1f8c8493ea2dfd77089dab81ed4dd7d
   specs:
     sprout-osx-apps (0.1.0)
       dmg (>= 0.0.0)

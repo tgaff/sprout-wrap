@@ -18,7 +18,8 @@ cookbook 'sprout-base',
   :github => 'pivotal-sprout/sprout-base'
 
 cookbook 'sprout-osx-apps',
-  :github => 'pivotal-sprout/sprout-osx-apps'
+ :github => 'tgaff/sprout-osx-apps',
+ :ref => 'tmg/resurrect_menumeters_preferences'
 
 cookbook 'sprout-osx-settings',
   :github => 'pivotal-sprout/sprout-osx-settings'
@@ -40,3 +41,4 @@ cookbook 'sprout-postgresql',
 
 cookbook 'sprout-ssh',
   :github => 'pivotal-sprout/sprout-ssh'
+
