@@ -35,7 +35,7 @@ recipes:
 - sprout-osx-apps::textmate_bundles
 - sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::macvim
-- sprout-rubymine
+#- sprout-rubymine
 - sprout-homebrew
 
 node_attributes:
@@ -61,7 +61,7 @@ node_attributes:
     terminal:
       default_profile: 'Pro'
     settings:
-      clock_format: EEE MMM d  h:mm:ss a
+      clock_format: EEE MMM d  hh:mm:ss a
     dock_preferences:
       orientation: 'left'
       auto_hide: true
@@ -86,10 +86,10 @@ node_attributes:
         - rbenv-gem-rehash
       casks:
         - ccmenu
-        - firefox
-        - gitx-rowanj
+        #- firefox
+        #- gitx-rowanj
         - github
-        - google-chrome
+        #- google-chrome
         - google-drive
         - google-hangouts
         - skype
