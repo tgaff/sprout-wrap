@@ -30,6 +30,11 @@ recipes:
 - sprout-osx-apps::keycastr
 - sprout-osx-apps::flycut
 - sprout-osx-apps::shiftit
+- sprout-osx-apps::macvim
+- sprout-osx-apps::menumeters
+- sprout-osx-apps::caffeine
+- sprout-osx-apps::google_voice_and_video
+- sprout-osx-apps::lastpass
 
 # apps (editors)
 - sprout-osx-apps::textmate_bundles
