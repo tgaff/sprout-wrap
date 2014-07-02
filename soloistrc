@@ -115,6 +115,7 @@ node_attributes:
 #        - rbenv-binstubs
 #        - rbenv-gem-rehash
         - redis
+        - icu4c
       casks:
         - ccmenu
         - firefox
