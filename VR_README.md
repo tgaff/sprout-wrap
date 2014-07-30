@@ -3,6 +3,14 @@
   Roe is a workstation spin-up tool based on the previous oceans tools (deleted) and pivotal-sprout.  
   It is intended to make spinning up a fresh developer workstation with the components needed for Oceans and Neptune and friends easy.
 
+## Usage
+
+First you'll almost certainly need rvm, so go get it:
+https://rvm.io/rvm/install
+If you prefer rbenv, that's a valid option too but you need one or the other.
+
+Then jump back to the readme and follow the instructions there.
+
 
 ## Maintenace
 
