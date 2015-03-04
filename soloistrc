@@ -21,6 +21,7 @@ recipes:
 - sprout-git::git_scripts
 
 # development (rails)
+- sprout-chruby   # my customization
 # - sprout-rbenv
 - sprout-ruby
 - sprout-mysql
@@ -32,31 +33,32 @@ recipes:
 - sprout-osx-apps::shiftit
 
 # apps (editors)
-- sprout-osx-apps::textmate_bundles
-- sprout-osx-apps::textmate_preferences
+#- sprout-osx-apps::textmate_bundles
+#- sprout-osx-apps::textmate_preferences
 - sprout-osx-apps::macvim
 #- sprout-rubymine
 
-# custom additions
+
+
+# my custom additions
 - sprout-osx-settings::osx_disable_natural_scrolling
 - sprout-osx-settings::defaults_fast_key_repeat_rate
-- sprout-osx-settings::function_keys
 - sprout-osx-settings::global_environment_variables
 - sprout-osx-settings::input_on_login
 - sprout-osx-settings::inputrc
 - sprout-osx-settings::keyboard
 - sprout-osx-settings::locate
 #- sprout-osx-settings::machine_name
-- sprout-osx-settings::menubar
 - sprout-osx-settings::screensaver
 - sprout-osx-settings::screen_sharing
 - sprout-osx-settings::set_menubar_clock_format
 - sprout-osx-settings::shared_memory
-- sprout-osx-settings::snmpd
+# - sprout-osx-settings::snmpd
 - sprout-osx-settings::sshd_on
 - sprout-osx-settings::tcp_keepalive
 - sprout-osx-settings::timemachine
 - sprout-osx-settings::updates
+
 
 - sprout-osx-apps::menumeters
 - sprout-osx-apps::caffeine
@@ -66,7 +68,7 @@ recipes:
 - sprout-osx-apps::virtualbox
 - sprout-osx-apps::xquartz
 
-- rvm::system_install
+#- rvm::system_install
 
 node_attributes:
   sprout:
@@ -85,7 +87,7 @@ node_attributes:
     settings:
       clock_format: EEE MMM d  h:mm:ss a
     dock_preferences:
-      orientation: 'left'
+      #orientation: 'left'
       auto_hide: true
       #clear_apps: true
       tile_size: 35
@@ -104,11 +106,12 @@ node_attributes:
         - tree
         - watch
         - wget
-# using rvm instead of rbenv
+# using chruby instead of rbenv
 #        - rbenv-binstubs
 #        - rbenv-gem-rehash
         - redis
         - icu4c
+	- htop
       casks:
         - ccmenu
         - firefox
@@ -118,9 +121,11 @@ node_attributes:
         - google-drive
         - google-hangouts
         - skype
-        - textmate
-        - vagrant
+#        - textmate
+	- vagrant
         - virtualbox
         - xquartz
         #- xscope
         - java
+        - atom
+        - sublime-text3
