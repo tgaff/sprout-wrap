@@ -8,7 +8,7 @@ recipes:
 
 # settings
 #- sprout-osx-settings
-- sprout-osx-settings::dock_preferences
+#- sprout-osx-settings::dock_preferences # temporarily disabled
 - sprout-terminal
 - sprout-terminal::update_font
 - sprout-ssh::known_hosts_github
@@ -87,9 +87,9 @@ node_attributes:
     settings:
       clock_format: EEE MMM d  h:mm:ss a
     dock_preferences:
-      #orientation: 'left'
+      # orientation: 'left'
       auto_hide: true
-      #clear_apps: true
+      # clear_apps: true
       tile_size: 35
       magnification: true
     homebrew:
