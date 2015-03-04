@@ -94,7 +94,7 @@ node_attributes:
       magnification: true
     homebrew:
       formulae:
-        - ctags-exuberant
+        # - ctags-exuberant
         - ag
         - chromedriver
         - imagemagick
