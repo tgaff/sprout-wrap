@@ -111,7 +111,7 @@ node_attributes:
 #        - rbenv-gem-rehash
         - redis
         - icu4c
-	- htop
+        - htop
       casks:
         - ccmenu
         - firefox
