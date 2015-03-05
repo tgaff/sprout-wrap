@@ -62,7 +62,6 @@ recipes:
 
 - sprout-osx-apps::menumeters
 - sprout-osx-apps::caffeine
-- sprout-osx-apps::lastpass
 - sprout-osx-apps::phantomjs
 - sprout-osx-apps::remote_desktop
 - sprout-osx-apps::virtualbox
@@ -129,3 +128,4 @@ node_attributes:
         - java
         - atom
         - sublime-text3
+        - lastpass
